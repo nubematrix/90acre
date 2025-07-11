@@ -1,38 +1,54 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>90Acre.in - Real Estate Portal</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90acre.in - Find Your Perfect Property</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>90ACRE.IN</h1>
-    <nav>
-      <a href="#">Buy</a>
-      <a href="#">Rent</a>
-      <a href="#">Commercial</a>
-      <a href="#">Post Property</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <section class="banner">
-    <h2>Find Your Dream Property in Tirupati</h2>
-    <button>Post Your Property</button>
-  </section>
-
-  <section class="categories">
-    <div class="card">Buy</div>
-    <div class="card">Rent</div>
-    <div class="card">Commercial</div>
-  </section>
-
-  <footer id="contact">
-    <h3>Contact Us</h3>
-    <p>Email: 90findyourproporty@gmail.com</p>
-    <p>Phone: +91-7075690541</p>
-  </footer>
+    <header>
+        <img src="assets/logo.png" alt="90acre.in Logo" class="logo">
+        <h1>90acre.in</h1>
+        <p>Find Your Perfect Property</p>
+        <nav>
+            <ul>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">Rent</a></li>
+                <li><a href="#">Commercial</a></li>
+                <li><a href="post-property.html">Post Property</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="search">
+        <input type="text" placeholder="Search Tirupati, Renigunta, Chandragiri, Madanapalle, Pileru" list="locations">
+        <datalist id="locations">
+            <option value="Tirupati">
+            <option value="Renigunta">
+            <option value="Chandragiri">
+            <option value="Madanapalle">
+            <option value="Pileru">
+        </datalist>
+    </section>
+    <section class="properties">
+        <div class="property-card">
+            <img src="assets/buy.jpg" alt="Buy Property">
+            <h3>Buy</h3>
+        </div>
+        <div class="property-card">
+            <img src="assets/rent.jpg" alt="Rent Property">
+            <h3>Rent</h3>
+        </div>
+        <div class="property-card">
+            <img src="assets/commercial.jpg" alt="Commercial Property">
+            <h3>Commercial</h3>
+        </div>
+    </section>
+    <footer>
+        <p>Contact: 7075690541 | Email: 90findyourproporty@gmail.com</p>
+        <p>Head Office: Tirupati</p>
+    </footer>
 </body>
 </html>
